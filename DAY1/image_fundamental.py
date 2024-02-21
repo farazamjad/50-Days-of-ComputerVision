@@ -1,4 +1,4 @@
-# !USAGE= python image_fundamental.py --image 'data/task2.jpeg'
+# !USAGE= python image_fundamental.py --image 'DAY1/data/img2.jpeg'
 #import libraries
 import argparse
 import cv2
@@ -58,7 +58,6 @@ bot_r=image[cY:h,cX:w]
 cv2.imshow("Bottom Right Corner",bot_r)
 
 #updating top left corner to red
-image[0:cY,cX:w]=top_l
-image[cY:h,cX:w]=bot_l
+image[0:cY,cX:w]=(0,0,255)
 cv2.imshow("Updated Top left corner",image)
 cv2.waitKey(0)

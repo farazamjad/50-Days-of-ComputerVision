@@ -1,5 +1,5 @@
 #USAGE
-#   command= python loading_images_with_openCV --input data/my.jpg --output data/myOutput.jpg
+#   command= python loading_images_with_openCV.py --input data/img1.png --output data/out.jpg
         
 #import libraries
 import argparse 
@@ -11,7 +11,7 @@ ap.add_argument('-i','--input',required=True,help='input path to image')
 ap.add_argument('-o','--output',required=True,help='output path to image')
 
 #converts to dict key:value
-= {INPUT:DATA/MY.JPG}
+#{INPUT:DATA/MY.JPG}
 args=vars(ap.parse_args())
 
 #loading image using cv2.imread
