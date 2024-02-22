@@ -1,4 +1,4 @@
-# !USAGE= python image_fundamental.py --image 'DAY1/data/img2.jpeg'
+# !USAGE= python DAY1/image_fundamental.py --image 'DAY1/data/img2.jpeg'
 #import libraries
 import argparse
 import cv2
