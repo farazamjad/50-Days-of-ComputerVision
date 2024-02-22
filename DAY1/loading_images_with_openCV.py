@@ -1,5 +1,5 @@
 #USAGE
-#   command= python loading_images_with_openCV.py --input data/img1.png --output data/out.jpg
+#   command= python loading_images_with_openCV.py --input DAY1/data/img1.png --output DAY1/data/out.jpg
         
 #import libraries
 import argparse 
